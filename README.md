@@ -33,5 +33,8 @@ To install, you have to:
 * install ntp.conf
 * reboot and check : when you're GPS is synchronised (cat /dev/gps0 and check RMC/GGA frame), you should have a cross in front of 127.127.20.0 and a 'o' in front of 127.127.22.0
 
+** LICENCE **
+You can use, and/or modify freely, BUT, you have to share here any changes (through an issue and/or a push request). You're not allowed to use for commercial purposes in any way.
+
 Keywords:
 ntp gps pps server stratum 0 1 raspberry pi gpio ntpd linux
