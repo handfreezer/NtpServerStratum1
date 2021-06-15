@@ -4,7 +4,8 @@
 * Kernel PPS module usage into NTP server
 * based on Debian 8 (creation of projet on June 26, 2016 : ok, it's a long time ago... but still working :-) )
 
-** Image & Video in docs directory **
+**Image & Video in docs directory**
+<img alt="v1.0.0" src="https://github.com/handfreezer/NtpServerStratum1/raw/master/docs/photo.v1.0.0.jpg" max-width="400">
 
 So, GPS module is connected like:
 * TX pin on the RX serial console of the rpi
