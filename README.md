@@ -5,7 +5,13 @@
 * based on Debian 8 (creation of projet on June 26, 2016 : ok, it's a long time ago... but still working :-) )
 
 **Image & Video in docs directory**
-<img alt="v1.0.0" src="https://github.com/handfreezer/NtpServerStratum1/raw/master/docs/photo.v1.0.0.jpg" max-width="400">
+<img alt="v1.0.0" src="https://github.com/handfreezer/NtpServerStratum1/raw/master/docs/photo.v1.0.0.jpg" max-width="350">
+
+**LICENCE**
+
+You can use, and/or modify freely, BUT, you have to share here any changes (through an issue and/or a push request). You're not allowed to use for commercial purposes in any way.
+
+**Building**
 
 So, GPS module is connected like:
 * TX pin on the RX serial console of the rpi
@@ -35,8 +41,6 @@ To install, you have to:
 * install ntp.conf
 * reboot and check : when you're GPS is synchronised (cat /dev/gps0 and check RMC/GGA frame), you should have a cross in front of 127.127.20.0 and a 'o' in front of 127.127.22.0
 
-**LICENCE**
-You can use, and/or modify freely, BUT, you have to share here any changes (through an issue and/or a push request). You're not allowed to use for commercial purposes in any way.
+**Keywords**
 
-Keywords:
 ntp gps pps server stratum 0 1 raspberry pi gpio ntpd linux
